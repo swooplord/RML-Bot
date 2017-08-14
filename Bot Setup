@@ -1,0 +1,8 @@
+npm install fancy-groupme-bot
+
+var botConfig = { token:'THGxtEVqDIh4493qh15Qxmfg15w3eH2yH2GJqnXh',
+                  group:'15669119',
+                  name:'RML Bot',
+                  url:'a callback url' };
+var bot = require('fancy-groupme-bot');
+var myBot = bot(botConfig);
